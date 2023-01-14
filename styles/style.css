@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Work Sans', sans-serif;
+}
+/* nav styles here  */
+.section-one{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.container-one{
+    width: 100%;
+    max-width: 1500px ;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    color: #131313;
+}
+.primary-title{
+    color: #131313;
+    font-size: 30px;
+}
+/* explore styles here  */
+.explore{
+    text-align: center;
+    padding: 7rem 0 3rem 0;
+}
+.explore-title{
+    font-weight: 700px;
+    font-size: 64px;
+}
+.explore-des{
+    color: #727272;
+    padding: 32px 0;
+}
+.explore-btn{
+    background-color: 
+    #FF900E;
+}
