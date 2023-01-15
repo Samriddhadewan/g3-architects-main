@@ -36,6 +36,10 @@ nav > ul{
     gap: 35px;
     color: #131313;
 }
+.nav-icn
+{
+    font-size: 1rem;
+}
 .primary-title{
     color: #131313;
     font-size: 30px;
@@ -47,7 +51,7 @@ nav > ul{
 }
 .explore-title{
     font-weight: 700px;
-    font-size: 64px;
+    font-size: 4rem;
 }
 .explore-des{
     color: #727272;
@@ -83,11 +87,8 @@ nav > ul{
 .gelary-container img{
     border-radius: 5px;
 }
-.feature-container{
-    align-items: center;
-}
 .feature-title{
-    font-size: 45px;
+    font-size: 2.8125rem;
     font-weight: 500;
     color: #727272;
 }
@@ -264,5 +265,50 @@ form p{
     }
     .section-two{
         flex-direction: column;
+    }
+    .section-three{
+        flex-direction: column;
+    }
+    .feature-container{
+        align-items: center;
+        text-align: center;
+    }
+    .love-describtion{
+        padding: 20px;
+    }
+    .love-immg{
+        width: 300px;
+    }
+    .years-btn{
+        position: absolute;
+        bottom: 0px;
+        left: 25%;
+        top: 100%;
+    }
+    .project-boxes{
+        flex-direction: column;
+    }
+    .some-facts{
+        padding-left: 10px;
+
+    }
+    .some-facts-des{
+        padding-left: 10px;
+    }
+    
+    .spacial-section{
+        display: none;
+    }
+    .project-boxes{
+        padding-left: 10px;
+    }
+    .architect{
+        font-size: 15px;
+    }
+    .nav-icn{
+        font-size: 0.7rem;
+    }
+    .copyright{
+        font-size: 0.7rem;
     }
 }
