@@ -19,7 +19,7 @@
     #FF900E;
     color: #FFFFFF;
     padding: 20px 25px;
-    font-size: 20px;
+    font-size: 1.25rem;
     border: none;
     border-radius: 10px;
 }
@@ -138,6 +138,7 @@ nav > ul{
     font-size: 20px;
     color: #131313;
 }
+
 .semi-section-three{
     position: absolute;
     top: 80px;
@@ -173,6 +174,13 @@ nav > ul{
     width: 241.83px;
     height: 130px;
     border: 1px solid #FF900E;
+}
+.project-box:hover{
+    transform: scale(1.1);
+    z-index: 3;
+    background-color: #83c224;
+    border: none;
+    color: #FFFFFF;
 }
 .number{
     font-size: 40px;
