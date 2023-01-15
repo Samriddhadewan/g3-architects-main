@@ -302,12 +302,17 @@ form p{
         padding-left: 10px;
     }
     .architect{
-        font-size: 15px;
+        font-size: 25px;
+        padding-left: 10px;
     }
     .nav-icn{
         font-size: 0.7rem;
     }
     .copyright{
         font-size: 0.7rem;
+    }
+    nav ul{
+        flex-direction: column;
+        height: 20px;
     }
 }
