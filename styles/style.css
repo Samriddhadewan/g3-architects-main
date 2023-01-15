@@ -7,7 +7,7 @@
 .section-one{
     padding-bottom: 40px;
     margin-bottom: 80px;
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: #FFF4E7;
 }
 .container-one{
     width: 100%;
@@ -187,5 +187,33 @@ nav > ul{
 
 /* section five styles here  */
 
+.section-five{
+    margin-top: 100px;
+    text-align: center
+    ;
+}
+.sponspors{
+    margin-bottom: 24px;
+}
+.logos{
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+/* section five ends here  */
+ 
+/* footer style here  */
 
-
+.footer{
+    background-color: #FFF4E7;
+    height: 7vh;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 70px;
+}
+.copyright{
+    color: #424242;
+}
