@@ -101,7 +101,7 @@ nav > ul{
 }
 .feature-describtion{
     color: #727272;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 24px 0px;
 }
 /* section two ends here  */
@@ -204,16 +204,57 @@ nav > ul{
     justify-content: space-around;
 }
 /* section five ends here  */
- 
+
+/* spacial section styles here  */
+.spacial-section{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/spacial-banner.jpg');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #73AD21;
+    margin: 80px 0px 40px 0px;
+}
+.spacial-title{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+form input{
+    margin: 10px 100px;
+    font-size: 30px;
+    align-items: center;
+}
+form p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
 /* footer style here  */
 
 .footer{
     background-color: #FFF4E7;
-    height: 7vh;
+    height: 70px;
     text-align: center;
     padding-top: 5px;
     margin-bottom: 70px;
 }
 .copyright{
     color: #424242;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    .gelary-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-two{
+        flex-direction: column;
+    }
 }
