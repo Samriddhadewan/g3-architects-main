@@ -111,8 +111,9 @@ nav > ul{
 .section-three{
     margin-top: 100px;
     display: flex;
-    gap: 54px;
-    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
     align-items: center;
     position: relative;
 }
@@ -145,4 +146,46 @@ nav > ul{
     height: 100px;
     border: 3px solid #73AD21;
 }
+.love-img{
+   position: relative;
+}
+.years-btn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius: 2px;
+}
+/* section three end here  */
+
+/* section four styles here  */
+.project-boxes{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.project-box{
+    padding: 50px;
+    text-align: center;
+    width: 241.83px;
+    height: 130px;
+    border: 1px solid #FF900E;
+}
+.number{
+    font-size: 40px;
+    padding-top: 9px;
+}
+.num-des{
+    font-size: 20px;
+    color: #727272
+    ;
+}
+/* section four ends here  */
+
+/* section five styles here  */
+
+
 
